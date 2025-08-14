@@ -129,7 +129,7 @@ ol {
 .content__list-container {
   /*блок с темплейтами*/
   height: 298px;
-  overflow: scroll;
+  overflow-y: scroll; /* только вертикальный при необходимости */
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -157,6 +157,7 @@ ol {
 .content__video-card-description-container {
   /*контейнер с названием города и подписью*/
   flex-grow: 1;
+  min-width: 0;
 }
 
 .content__card-link {
