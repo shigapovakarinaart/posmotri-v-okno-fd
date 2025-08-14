@@ -52,6 +52,7 @@ ol {
 
 .page {
   display: flex;
+  justify-content: center;
 }
 
 .content {
@@ -59,8 +60,8 @@ ol {
   justify-content: center;
   align-content: center;
   width: 1140px;
-  height: 534px;
-  margin: 133px 30px;
+  margin: 10px;
+  object-position: center;
 }
 
 .result {
@@ -99,11 +100,11 @@ ol {
   display: inline-block;
   align-content: flex-end;
   width: 399px;
-  height: 534px;
 }
 
 .title {
-  width: 260px;
+  max-width: 260px;
+  width:100%;
   margin-bottom: 26px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -280,18 +281,17 @@ ol {
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
+  height: 34px;
 }
 
 .search-form__submit-button {
   align-self: flex-end;
   width: 194px;
-  height: 34px;
 }
 
 .more-button {
   flex-shrink: 0;
   width: 100%;
-  height: 34px;
 }
 
 .button:active {
