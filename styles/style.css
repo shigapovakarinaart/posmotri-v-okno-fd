@@ -10,6 +10,8 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -48,11 +50,6 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
-}
-
-.page {
-  display: flex;
-  justify-content: center;
 }
 
 .content {
@@ -103,8 +100,8 @@ ol {
 }
 
 .title {
+  width: 100%;
   max-width: 260px;
-  width:100%;
   margin-bottom: 26px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -274,6 +271,7 @@ ol {
 }
 
 .button {
+  height: 34px;
   border: 1px solid #fff;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -281,7 +279,6 @@ ol {
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
-  height: 34px;
 }
 
 .search-form__submit-button {
